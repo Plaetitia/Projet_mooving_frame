@@ -229,7 +229,7 @@ elif selection == "Recommandation":
     # === Interface utilisateur
     st.title(" Recommandation de Films")
     st.write("Recherchez un film pour obtenir des recommandations personnalisées.")
-    st.write("Pour tester : Choisir le titre en anglais d’un film. Le film doit être sorti entre 1975 et 1995, être d’origine française ou américaine, et appartenir à l’un de ces genres : Comédie, Famille ou Drame. Besoin d’exemples : Aladdin, The Gendarme and the Gendarmettes(Le Gendarme et les Gendarmettes), Home Alone (Maman, j’ai raté l’avion), Rocky…")
+    st.write("Pour tester : Choisir le titre en anglais d’un film. Le film doit être sorti entre 1975 et 1995, être d’origine française ou américaine, et appartenir à l’un de ces genres : Comédie, Famille ou Drame. Besoin d’exemples : Aladdin, The Gendarme and the Gendarmettes (Le Gendarme et les Gendarmettes), Home Alone (Maman, j’ai raté l’avion), Rocky…")
 
     movie_title = st.text_input("Entrez un titre de film")
 
